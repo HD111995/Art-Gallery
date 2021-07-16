@@ -1,0 +1,271 @@
+@font-face {
+    font-family:h1;
+    src: url('../font/h1.ttf');
+}
+@font-face {
+    font-family:h;
+    src: url('../font/h.ttf');
+}
+@font-face {
+    font-family:a;
+    src: url('../font/a.ttf');
+}
+@font-face {
+    font-family:p;
+    src: url('../font/p.ttf');
+}
+/* ------------------------------ */
+html{
+    scroll-behavior: smooth;
+}
+body{
+margin: 0;
+padding: 0;
+background:rgb(0, 0, 0);
+position:relative;
+}
+/* Global Styling*/
+section{
+    background:rgba(0, 0, 0, 0.856);
+    margin:0;
+    padding:0;
+}
+h2{
+color:white;
+font-family:'h';
+font-size:50px;
+}
+/* -------------------- */
+h3{
+color:white;
+font-family:'h';
+font-size:20px;
+}
+/* ------------------------ */
+.kunst>img{
+width:14vw;
+height:40vh;
+margin:auto 30px;
+border-left:12px groove white;
+border-bottom:12px groove white;
+border-top-left-radius:6px;
+border-bottom-right-radius:6px;
+transition:width 1s;
+transition:height 1s;
+}
+/* --------------------------- */
+ul>li{
+display:inline;
+margin-right:20px;
+}
+/* ----------------------------- */
+
+a{
+    text-decoration-line: none;
+    font-size:20px;
+    color:white;
+}
+/* ----------------------------- */
+ul>li>a{
+    
+    font-size:22px;
+    font-family:'a';
+}
+/* ----------------------- */
+ul>li a:hover{
+    background:black;
+}
+/* --------------------------------- */
+p{
+font-family:'p';
+}
+/* Global Styling End */
+/* Header Styling Start */
+header{
+    width:50%;
+    height:142vh;
+    background-color:#EB002F;
+    margin:0;
+    padding-top:5px;
+}
+/* ------------------------- */
+nav{
+    margin:0;
+    padding:0;
+}
+/* ---------------------------- */
+header>h1{
+    color:black;
+    font-size:130px;
+    font-family:'h1';
+    margin-left:58%;
+    margin-top:25%;
+}
+/* ------------------------------- */
+.tel{
+    padding-top:15px;
+    text-align:center;
+    width:15vw;
+    height:40px;
+    color:black;
+    background:white;
+    border-left:6px solid black;
+    border-bottom:6px solid black;
+    position:fixed;
+    bottom:5vh;
+    left:5vh;
+    
+}
+/* header End */
+/* Styling image Bord .kunst */
+.kunst{
+  position:absolute;
+  top:680px;
+  left:340px;
+}
+/* ---------------------- */
+.kunst img:hover{
+    width:18vw;
+height:50vh;
+
+}
+/* imge bord End */
+/* Caption Teil 2 Styling*/
+.cap{
+   position:absolute;
+   top:40vh;
+   right:14vw;
+    color:white;
+    font-size:80px;
+    font-family:'h1';
+}
+/* Caption Teil2 End */
+/* About Section Styling */
+#about{
+    height:150vh;
+    position:relative;
+}
+
+#about>article{
+    display:inline-block;
+    margin:0;
+    padding-top:20vh;
+    width:48vw;
+    height:120vh;
+    position:relative;
+}
+#about>article>img{
+    width:35vw;
+    height:45vh;
+    margin:10px;
+    margin-top:10vh;
+}
+
+
+
+.art1-about{
+text-align:right;
+padding-top:40vh;
+}
+/* ------------------------ */
+.art1-about>h2{
+    color:#EB002F;
+   margin-top:20vh;
+
+}
+.art1-about>p{
+    text-align:left;
+    color:white;
+    font-size:30px;
+    margin-top:10vh;
+    margin-left:15vw;
+    width:32vw;
+    line-height:40px;
+    word-spacing:5px;;
+}
+/* ------------------------------- */
+.art2-about{
+    background-color:#EB002F;
+    margin-top:0;
+    max-height:90vh;
+}
+/* ------------------------------ */
+.art2-about>h2{
+    color:black;
+    
+}
+/* ----------------------- */
+/* end Section About */
+/* start Art section */
+#art{
+    margin-top:50vh;
+    text-align:center;
+    height:100vh;
+}
+/* ---------------------- */
+#art>div{
+    display:inline-block;
+    margin:auto 10px;
+}
+/* ------------------------- */
+#art>div>img{
+width:24vw;
+height:60vh;
+transition:width 1s;
+transition:height 1s;
+}
+/* -------------------------- */
+#art>div img:hover{
+width:30vw;
+height:80vh;
+}
+/* Art End */
+/* start Footer */
+footer{
+    text-align:center;
+    background:white;
+}
+/* ------------------------- */
+footer>h2{
+    font-family:'h1';
+    font-size:60px;
+    color:#EB002F;
+}
+/* --------------------------- */
+footer>h3{
+    margin-bottom:0;
+    font-size:30px;
+    color:black;
+}
+/* ------------------------------- */
+footer>p{
+display:inline-block;
+padding-left:40px;
+font-size:24px;
+width:40vw;
+line-height:40px;
+
+}
+/* ---------------------------------- */
+footer>a{
+    display:block;
+    background:#EB002F;
+}
+/* -------------------------------- */
+#i1 ,#i2 ,#i3{
+    margin:10px 10px;
+}
+/* --------------------------- */
+#i1 {
+    color:#1877F2;
+}
+/* -------------------------------- */
+#i2{
+    color:#E4405F;
+}
+/* ----------------------- */
+#i3{
+    color:#1DA1F2;
+}
+/* ------------------ */
+/* --------Styling End------ */
